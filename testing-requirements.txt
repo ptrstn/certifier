@@ -1,5 +1,6 @@
-codecov
+pytest
 pytest-django
 pytest-cov
+codecov
 mixer
 selenium==3.14.1

@@ -7,7 +7,7 @@ services: postgresql
 
 install:
   - pip install -r requirements.txt
-  - pip install -r testing-requirements.txt
+  - pip install --upgrade -r testing-requirements.txt
 
 before_script:
   - psql -c "create database testdb;" -U postgres
